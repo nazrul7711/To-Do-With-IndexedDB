@@ -1,0 +1,45 @@
+.todoList {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid orange; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.first {
+
+  width: 91%;
+  margin-top: 15px;
+  align-self: center;
+  display: flex;
+  padding: 0.25em;
+  box-shadow: 2px 2px 15px rgb(107, 105, 105);
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgb(128, 211, 236);
+  
+
+}
+.first button {
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+}
+.first input{
+  border: none;
+  border-radius: 5px;
+}
+.addBtn {
+  background-color: rgb(54, 173, 54);
+  border: none;
+}
+.deleteBtn {
+  background-color: rgb(232, 60, 30);
+}
+.first > * {
+  margin: 1em;
+}

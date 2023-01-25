@@ -1,0 +1,25 @@
+.processedItem {
+  /* background-color: aqua; */
+  display: flex; 
+  width: 91%;
+  justify-content: center;
+  gap: 25px;
+  padding: 1em;
+  box-shadow: 2px 2px 15px rgb(107, 105, 105);
+  margin: 25px auto;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+.processedItem button {
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.dltBtn {
+  background-color: rgb(232, 60, 30);
+}
+

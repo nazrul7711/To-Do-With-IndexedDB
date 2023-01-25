@@ -1,0 +1,29 @@
+.todoItem {
+  display: flex;
+  width: 91%;
+  justify-content: center;
+  gap: 25px;
+  padding: 1em;
+  box-shadow: 2px 2px 15px rgb(107, 105, 105);
+  margin: 25px auto;
+  border-radius: 5px;
+  background-color: rgb(224, 224, 55);
+}
+.todoItem button {
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.editBtn {
+  background-color: rgb(54, 173, 54);
+  border: none;
+}
+.dltBtn {
+  background-color: rgb(232, 60, 30);
+}
+.some {
+  background-color: rgb(44, 123, 234);
+}
